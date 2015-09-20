@@ -1,14 +1,32 @@
-
-.row{
-	margin-top: 100px;
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+html {
+    background: url(../../img/office2.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+h1{
+	font-family:'Lobster';
+	text-align: center;
+	padding-bottom: 40px;
+	color:#003B46;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .col-12{
 	text-align: center;
+	color:#07575b;	
+	font-size: 1.2rem;
+	font-family:'Lobster';
 }
-.video{
- position: fixed;
- top: 0;
- left: 0;
- z-index: 0;
- overflow: hidden;
+h4{
+	color:#003B46;
+	font-size: 1.4rem;
+	font-family:'Lobster';
+	background: rgba(254, 255, 255, 0.5);
 }
+
