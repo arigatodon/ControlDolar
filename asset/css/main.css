@@ -1,3 +1,14 @@
+
+.row{
+	margin-top: 100px;
+}
 .col-12{
 	text-align: center;
+}
+.video{
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 0;
+ overflow: hidden;
 }
