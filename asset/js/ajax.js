@@ -10,7 +10,7 @@ $('#btn').click(function(e) {
 		dataType: 'json',
 	})
 
-	.done(function( data) {
+	.done(function(data) {
 		var prestamo_pesos = data.uf.valor * valor ;
 		var interes = cantidad * 0.015;
 		var valor_total = prestamo_pesos+prestamo_pesos*interes;
