@@ -2,7 +2,6 @@ $('#btn').click(function(e) {
 	e.preventDefault();
 	var valor = $('#valor').val();
 	var cantidad = $('#cantidad').val();
-
 	var $elem = $('#dato');
 	$.ajax({
 		url: 'http://www.mindicador.cl/api',
@@ -22,7 +21,7 @@ $('#btn').click(function(e) {
 	.fail(function() {
 		console.log("error");
 	})
-	.always(function() {
-		
+	.always(function(data) {
+
 	});
 });

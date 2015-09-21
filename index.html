@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Simulador de cuotas</title>
 	<link rel="stylesheet" href="asset/css/grid.css">
 	<link rel="stylesheet" href="asset/css/main.css">
 	<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
@@ -11,9 +11,9 @@
 <body>
 	<header class="row"><h1> Simulador de cuotas</h1> </header>
 	<div class="row">
-		<div class="col-12">Monto a pedir en UF: <input type="text" id="valor" value="Ingrese UF">
+		<div class="col-12">Monto a pedir en UF: <input type="text" id="valor" placeHolder="ingrese UF">
 		</div>
-			<div class="col-12">En cuantas cuotas desea pagar : <input type="text" id="cantidad">
+			<div class="col-12">En cuantas cuotas desea pagar : <input type="text" id="cantidad" placeHolder="ingrese cantidad de cuotas">
 				<input type="button" id="btn" value="calcular"></div>
 				<div class="col-4"></div>
 				<div id="dato"class="col-4">		
@@ -21,5 +21,10 @@
 				<div class="col4"></div>
 			<script src="asset/js/ajax.js"></script>
 	</div>
+	<footer class="row">
+		<h3 class="col-4" id="dolar"></h3>
+		<div class="col-4"></div>
+		<h3 class="col-4" id="uf"></h3>
+	</footer>
 </body>
 </html>
